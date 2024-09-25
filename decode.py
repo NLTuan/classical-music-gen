@@ -1,7 +1,7 @@
 import py_midicsv as pm
 
-csv_str_list = pm.midi_to_csv(r"C:\Users\letua\Downloads\maestro-v3.0.0-midi\maestro-v3.0.0\2009\MIDI-Unprocessed_06_R1_2009_03-07_ORIG_MID--AUDIO_06_R1_2009_06_R1_2009_06_WAV.midi")
+csv_str_list = pm.midi_to_csv(r"C:\Users\letua\Downloads\maestro-v3.0.0-midi\maestro-v3.0.0\2018\MIDI-Unprocessed_Chamber2_MID--AUDIO_09_R3_2018_wav--1.midi")
 
-with open("example.csv", 'w') as f:
+with open("example2.csv", 'w') as f:
     f.writelines(csv_str_list)
     
